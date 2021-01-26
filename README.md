@@ -16,7 +16,7 @@ Database: https://www.kaggle.com/teajay/global-shark-attacks
 ### Men suffer more shark attacks because they engage in riskier behaviors.
 ----
 
-## 3. Conclusions
+## 3. Development
 
 Forbes magazine states "Unlike testosterone, the female hormone, oxytocin, acts largely responsible for female emotional stability but in a calming way and would explain, according to the AFS Finance study, why in the midst of the financial crisis female investors fared much better than their male counterparts."
 
@@ -36,5 +36,7 @@ I have removed all duplicate data, and converted the NaN data in the 'Years' col
 Then I remove the NaN and all those values lower than 1,970, in order to obtain the data grouped by decades.
 
 I modify the name of the column 'Sex' to leave all the names under the same pattern and I finish cleaning those data that within the sex column do not refer to male or female, helping me with the variable name in many of them.
+
+## 5. Conclusions
 
 The result is a graph that shows not only that shark attacks on men are much higher than on women, but also that both in global computation and divided by quota, attacks on both sexes have increased dramatically.
