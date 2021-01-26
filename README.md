@@ -2,11 +2,13 @@
 
 ![](https://www.australiangeographic.com.au/wp-content/uploads/2018/06/great-white-shark.jpg)
 
+--------
 ## 1. Objetive
 
 Given a database of shark attacks, we had to draw a hypothesis and then proceed to debug the database.
 
 Database: https://www.kaggle.com/teajay/global-shark-attacks
+
 --------
 
 ## 2. Hypothesis
