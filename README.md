@@ -1,31 +1,38 @@
-README.md
+# -Pandas- Shark proyect
 
-# Proyecto Pandas
+![](https://www.australiangeographic.com.au/wp-content/uploads/2018/06/great-white-shark.jpg)
 
-Dada una base de datos de ataques de tiburones, debíamos sacar una hipótesis para posteriormente proceder a depurar la base de datos.
+## 1. Objetive
 
+Given a database of shark attacks, we had to draw a hypothesis and then proceed to debug the database.
+
+Database: https://www.kaggle.com/teajay/global-shark-attacks
 --------
 
-## Hipótesis
-### Los hombres sufren más ataques de tiburones debido a que asumen comportamientos con mayor riesgo.
+## 2. Hypothesis
+
+### Men suffer more shark attacks because they engage in riskier behaviors.
 ----
 
+## 3. Conclusions
 
-La revista Forbes afirma "A diferencia de la testosterona, la hormona femenina, la oxitocina, actúa en gran medida como responsable de la estabilidad emocional femenina pero de forma calmada y explicaría, según el estudio de AFS Finance, que en plena crisis financiera a las mujeres inversoras les fuera mucho mejor que a sus homólogos masculinos."
+Forbes magazine states "Unlike testosterone, the female hormone, oxytocin, acts largely responsible for female emotional stability but in a calming way and would explain, according to the AFS Finance study, why in the midst of the financial crisis female investors fared much better than their male counterparts."
 
-Cabe añadir que el sexo masculino sí es muy propenso a tomar riesgos, esto se debe a que los hombres adquieren mayor estatus social asumiendo este tipo comportamientos. También la asunción de riesgos y conductas violentas, sobre todo en la edad adulta joven, está relacionado con el establecimiento de órdenes jerárquicos entre sus competidores.
+It should be added that the male sex is indeed very prone to risk-taking, this is because men acquire greater social status by taking on this type of behavior. Also risk-taking and violent behavior, especially in young adulthood, is related to the establishment of hierarchical orders among their competitors.
 
-*Fuente: ¿Son los hombres más proclives a asumir riesgos que las mujeres?*: https://forbes.es/empresas/43241/son-los-hombres-mas-proclives-a-asumir-riesgos-que-las-mujeres/
+*Source: Are men more prone to risk-taking than women?*:  https://forbes.es/empresas/43241/son-los-hombres-mas-proclives-a-asumir-riesgos-que-las-mujeres/
 
 ---
 
-Para el análisis y limpieza de datos dado que la BB.DD. muestra 25.723 filas y 24 columnas, he decidido centrarme en tan solo 6 columnas que me permitan obtener los datos que necesito o bien que me ayuden a averiguar datos erroneos, inexactos o NaN de otras columnas.
+## 4. Analysis
 
-He eliminado todos los datos duplicados, y convertido los datos NaN de la columna 'Years' a 'flotantes' para después convertir toda la columan en 'int'.
+For data analysis and cleaning, given that the BB.DD. shows 25,723 rows and 24 columns, I have decided to focus on only 6 columns that will either allow me to get the data I need or help me to find out erroneous, inaccurate or NaN data from other columns.
+
+I have removed all duplicate data, and converted the NaN data in the 'Years' column to 'floats' and then converted the whole column to 'int'.
 
 
-Después elimino los NaN y todos aquellos valores inferiores a 1.970, para poder obtener los datos agrupados por decadas.
+Then I remove the NaN and all those values lower than 1,970, in order to obtain the data grouped by decades.
 
-Modifico el nombre de la columna 'Sex' para dejar todos los nombres bajo el mismo patrón y termino de limpiar aquellos datos que dentro de la columna sexo no refieren a hombre o mujer, ayudándome de la variable nombre en muchos de ellos.
+I modify the name of the column 'Sex' to leave all the names under the same pattern and I finish cleaning those data that within the sex column do not refer to male or female, helping me with the variable name in many of them.
 
-El resultado es una gráfica que muestra ya no solo que el ataque de tiburones a los hombre es mucho mayor que a las mujeres, sino que tanto en cómputo global como divididos por cuota ha aumentado estrepitosmanente los ataques a ambos sexos.
+The result is a graph that shows not only that shark attacks on men are much higher than on women, but also that both in global computation and divided by quota, attacks on both sexes have increased dramatically.
